@@ -1,0 +1,68 @@
+h1{
+        font-family: "Bungee Tint", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        border: 5px;     
+        background-color: rgb(39, 136, 0);
+
+}
+.contenedor{
+        display: grid;
+        grid-template-columns: repeat(4 , 50fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(50PX , auto);
+        background-color: rgb(0, 0, 0);
+        }
+.contenedor > div{
+        color: beiges;
+        margin: 5px;
+        padding: 5px;
+}
+img{
+        width: 70%;
+        height: auto;
+}
+h2{
+        background-color: rgb(12, 0, 182);
+        border: 5px;
+        padding: 4px;
+}
+.heroesh{
+        display: grid;
+        grid-template-columns: repeat(4 , 50fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(50PX , auto);
+        background-color: rgb(0, 0, 0);
+}
+.item2{
+        margin: 5px;
+        padding: 5px;
+}
+body{
+        background-color: rgb(0, 0, 0);
+}
+p{
+        color: rgb(255, 255, 255);
+}
+section{
+        display: flex;
+        width: 600px;
+        height: 430px;
+
+}
+section img{
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: 1s ease;
+
+
+}
+section img:hover{
+        cursor: crosshair;
+        width: 300px;
+        opacity:1 ;
+        filter: contrast(120%);text-align: center;
+}
